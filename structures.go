@@ -82,4 +82,7 @@ func main() {
 	var subscriber2 subscriber
 	subscriber2.name = "Beth Ryan"
 	fmt.Println("Name:", subscriber2.name)
+	
+	myCar := car{name: "Corvette", topSpeed: 337}
+	fmt.Printf("%v\n", myCar)
 }
